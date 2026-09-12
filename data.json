@@ -1,0 +1,28 @@
+{
+  "config": {
+    "brandName": "Submersa",
+    "brandTagline": "impressão 3D para aquarismo",
+    "noticeText": "Pagamento combinado via Pix ao finalizar o pedido pelo WhatsApp",
+    "heroTitle": "Peças pensadas pra quem cuida de um aquário de verdade.",
+    "heroText": "Divisórias de reprodução, esconderijos de aquascape e organizadores de equipamento — impressos em PETG seguro para água, sem depender de importado.",
+    "footerText": "Submersa — feito sob encomenda, peça a peça. Pedidos combinados por WhatsApp.",
+    "whatsappNumber": "5511999999999",
+    "instagramHandle": "@submersa3d",
+    "shipping": {
+      "originState": "SP",
+      "rateSameState": 15,
+      "rateOtherState": 25,
+      "freeAbove": 150
+    }
+  },
+  "products": [
+    {"id":"p1","name":"Divisória de reprodução","desc":"Separa fêmeas prenhas e alevinos sem estressar o casal.","price":39.90,"icon":"breeding","image":"","soldOut":false,
+      "colors":[{"name":"Transparente","hex":"#CFE8F0","soldOut":false},{"name":"Azul","hex":"#2C5A8C","soldOut":false}]},
+    {"id":"p2","name":"Caverna para camarões","desc":"Esconderijo texturizado para caridina e neocaridina.","price":24.90,"icon":"cave","image":"","soldOut":false,"colors":[]},
+    {"id":"p3","name":"Organizador de mangueiras","desc":"Esconde fiação de filtro, CO2 e aquecedor atrás do tanque.","price":19.90,"icon":"hose","image":"","soldOut":false,"colors":[]},
+    {"id":"p4","name":"Comedouro antidesperdício","desc":"Mantém a ração concentrada e reduz sobra no fundo.","price":22.90,"icon":"feeder","image":"","soldOut":true,"colors":[]},
+    {"id":"p5","name":"Suporte para difusor de CO2","desc":"Fixação estável para difusores em aquários plantados.","price":27.90,"icon":"co2","image":"","soldOut":false,"colors":[]},
+    {"id":"p6","name":"Parede para musgo","desc":"Base vazada para fixar musgo e criar fundo natural.","price":34.90,"icon":"moss","image":"","soldOut":false,"colors":[]}
+  ]
+}
+
