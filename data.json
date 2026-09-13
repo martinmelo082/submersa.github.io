@@ -2,7 +2,7 @@
   "config": {
     "brandName": "Submersa",
     "brandTagline": "impressão 3D para aquarismo",
-    "noticeText": "Pagamento combinado via Pix ao finalizar o pedido pelo WhatsApp",
+    "noticeText": "Pagamento combinado ao finalizar o pedido pelo WhatsApp",
     "heroTitle": "Peças pensadas pra quem cuida de um aquário de verdade.",
     "heroText": "Divisórias de reprodução, esconderijos de aquascape e organizadores de equipamento — impressos em PETG seguro para água, sem depender de importado.",
     "footerText": "Submersa — feito sob encomenda, peça a peça. Pedidos combinados por WhatsApp.",
@@ -13,7 +13,13 @@
       "rateSameState": 15,
       "rateOtherState": 25,
       "freeAbove": 150
-    }
+    },
+    "aboutTitle": "Sobre a Submersa",
+    "aboutText": "",
+    "faqDeliveryText": "",
+    "faqExchangeText": "",
+    "gaId": "",
+    "metaPixelId": ""
   },
   "products": [
     {
