@@ -1,7 +1,7 @@
 {
   "config": {
-    "brandName": "Submersa",
-    "brandTagline": "impressão 3D para aquarismo",
+    "brandName": "MELO",
+    "brandTagline": "MARTIN",
     "noticeText": "Pagamento combinado ao finalizar o pedido pelo WhatsApp",
     "heroTitle": "Peças pensadas pra quem cuida de um aquário de verdade.",
     "heroText": "Divisórias de reprodução, esconderijos de aquascape e organizadores de equipamento — impressos em PETG seguro para água, sem depender de importado.",
@@ -10,7 +10,7 @@
     "instagramHandle": "@submersa3d",
     "shipping": {
       "originState": "MA",
-      "originCep": "",
+      "originCep": "65070628",
       "packageWeightKg": 0.3,
       "packageLengthCm": 16,
       "packageWidthCm": 12,
