@@ -10,6 +10,11 @@
     "instagramHandle": "@submersa3d",
     "shipping": {
       "originState": "MA",
+      "originCep": "",
+      "packageWeightKg": 0.3,
+      "packageLengthCm": 16,
+      "packageWidthCm": 12,
+      "packageHeightCm": 4,
       "rateSameState": 15,
       "rateOtherState": 25,
       "freeAbove": 150
