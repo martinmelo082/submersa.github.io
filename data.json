@@ -2,12 +2,13 @@
   "config": {
     "brandName": "Submersa",
     "brandTagline": "Soluções em 3D para Aquarismo",
-    "noticeText": "Pagamento combinado ao finalizar o pedido pelo WhatsApp",
     "heroTitle": "Peças pensadas pra quem cuida de um aquário de verdade.",
     "heroText": "Divisórias de reprodução, esconderijos de aquascape e organizadores de equipamento — impressos em PETG seguro para água, sem depender de importado.",
     "footerText": "Submersa — feito sob encomenda, peça a peça. Pedidos combinados por WhatsApp.",
-    "whatsappNumber": "5582996106714",
+    "whatsappNumber": "5598987683193",
     "instagramHandle": "@submersa3d",
+    "couponCode": "",
+    "couponPercent": 10,
     "shipping": {
       "originState": "MA",
       "originCep": "65070628",
