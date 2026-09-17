@@ -14,8 +14,8 @@
       "originCep": "65070628",
       "packageWeightKg": 0.3,
       "packageLengthCm": 16,
-      "packageWidthCm": 12,
-      "packageHeightCm": 4,
+      "packageWidthCm": 16,
+      "packageHeightCm": 11,
       "rateSameState": 15,
       "rateOtherState": 20,
       "freeAbove": 150
