@@ -96,9 +96,9 @@
         "notes": ""
       },
       "dimensions": {
-        "width": "",
-        "height": "",
-        "depth": "",
+        "width": "2",
+        "height": "10",
+        "depth": "2",
         "compatibility": ""
       }
     }
