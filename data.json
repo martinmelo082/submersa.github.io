@@ -86,7 +86,13 @@
         }
       ],
       "soldOut": false,
-      "colors": [],
+      "colors": [
+        {
+          "name": "Laranja",
+          "hex": "#ff6600",
+          "soldOut": false
+        }
+      ],
       "category": "Locline",
       "specs": {
         "material": "PETG",
