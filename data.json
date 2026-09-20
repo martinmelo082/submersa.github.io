@@ -56,7 +56,7 @@
       "category": "Ferramenta",
       "specs": {
         "material": "PETG",
-        "uvResistant": false,
+        "uvResistant": true,
         "waterType": "Doce e salgada",
         "nonToxic": true,
         "notes": ""
@@ -90,7 +90,7 @@
       "category": "Locline",
       "specs": {
         "material": "PETG",
-        "uvResistant": false,
+        "uvResistant": true,
         "waterType": "Doce e salgada",
         "nonToxic": true,
         "notes": ""
