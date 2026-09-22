@@ -35,7 +35,12 @@
       "price": 36,
       "icon": "breeding",
       "image": "",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790037665756-4ghac-pinca_30cm_1330x1182.png"
+        }
+      ],
       "soldOut": false,
       "colors": [
         {
@@ -66,7 +71,12 @@
       "price": 42,
       "icon": "breeding",
       "image": "",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790037676677-btpw2-whatsapp-image-2026-09-21-at-10.33.20.jpeg"
+        }
+      ],
       "soldOut": false,
       "colors": [
         {
