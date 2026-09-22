@@ -99,6 +99,42 @@
         "depth": "2",
         "compatibility": ""
       }
+    },
+    {
+      "id": "p_1790037708652",
+      "name": "Repositor de água",
+      "desc": "Não deixe que a manutenção do seu aquário se torne um fardo. Com o nosso Repositor de Garrafa PET para Aquarismo, você garante um ambiente saudável para seus peixes e mais tranquilidade para você. ",
+      "price": 39,
+      "icon": "breeding",
+      "image": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790037928047-my3q4-submersa_sistema_reposicao_agua.png"
+        }
+      ],
+      "soldOut": false,
+      "colors": [
+        {
+          "name": "Laranja",
+          "hex": "#ff6600",
+          "soldOut": false
+        }
+      ],
+      "category": "Suportes",
+      "specs": {
+        "material": "PETG",
+        "uvResistant": false,
+        "waterType": "Doce e salgada",
+        "nonToxic": true,
+        "notes": "- Nível de Água Sempre Estável;\n- Economia de Tempo;\n- Uso é extremante seguro e não depende de energia elétrica.\n- Rosca para garrafa PET tradicional, não sendo necessário fazer nenhum tipo de adaptação,"
+      },
+      "dimensions": {
+        "width": "8",
+        "height": "4",
+        "depth": "4",
+        "compatibility": "Compatível com vidros de até 8mm."
+      }
     }
   ]
 }
