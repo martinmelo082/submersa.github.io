@@ -124,7 +124,7 @@
       "category": "Suportes",
       "specs": {
         "material": "PETG",
-        "uvResistant": false,
+        "uvResistant": true,
         "waterType": "Doce e salgada",
         "nonToxic": true,
         "notes": "- Nível de Água Sempre Estável;\n- Economia de Tempo;\n- Uso é extremante seguro e não depende de energia elétrica.\n- Rosca para garrafa PET tradicional, não sendo necessário fazer nenhum tipo de adaptação,"
