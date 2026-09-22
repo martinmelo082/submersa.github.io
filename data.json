@@ -32,7 +32,7 @@
       "id": "p_1789930109206",
       "name": "Pinça de aquascape",
       "desc": "Pinça longa com ponta serrilhada, ideal para manusear corais, posicionar rochas, arrumar musgos ou alimentar a fauna do seu aquário. Possui cabo texturizado e antiderrapante, garantindo precisão e firmeza mesmo com as mãos molhadas.",
-      "price": 36,
+      "price": 44,
       "icon": "breeding",
       "image": "",
       "media": [
@@ -68,7 +68,7 @@
       "id": "p_1789930620887",
       "name": "Locline bico de pato 1/2\" (3 partes)",
       "desc": "Bico de pato articulado (Locline) com rosca de 1/2\", ideal para direcionar o fluxo de água, otimizar a circulação e melhorar a circulação do seu aquário. Produzido em material resistente e atóxico, possui ajuste fácil e preciso, garantindo total controle sobre a vazão.",
-      "price": 29,
+      "price": 36,
       "icon": "breeding",
       "image": "",
       "media": [
@@ -77,7 +77,7 @@
           "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790037676677-btpw2-whatsapp-image-2026-09-21-at-10.33.20.jpeg"
         }
       ],
-      "soldOut": false,
+      "soldOut": true,
       "colors": [
         {
           "name": "Laranja",
