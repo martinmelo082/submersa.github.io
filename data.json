@@ -1,0 +1,94 @@
+{
+  "config": {
+    "brandName": "Submersa",
+    "brandTagline": "Soluções em 3D para Aquarismo",
+    "heroTitle": "Peças pensadas pra quem cuida de um aquário de verdade.",
+    "heroText": "Divisórias de reprodução, esconderijos de aquascape e organizadores de equipamento — impressos em PETG seguro para água, sem depender de importado.",
+    "footerText": "Submersa — feito sob encomenda, peça a peça. Pedidos combinados por WhatsApp.",
+    "whatsappNumber": "5598987683193",
+    "instagramHandle": "@submersa3d",
+    "couponCode": "",
+    "couponPercent": 10,
+    "shipping": {
+      "originState": "MA",
+      "originCep": "65070628",
+      "packageWeightKg": 0.3,
+      "packageLengthCm": 16,
+      "packageWidthCm": 16,
+      "packageHeightCm": 11,
+      "rateSameState": 15,
+      "rateOtherState": 20,
+      "freeAbove": 150
+    },
+    "aboutTitle": "Sobre a Submersa",
+    "aboutText": "",
+    "faqDeliveryText": "",
+    "faqExchangeText": "",
+    "gaId": "",
+    "metaPixelId": ""
+  },
+  "products": [
+    {
+      "id": "p_1789930109206",
+      "name": "Pinça de aquascape",
+      "desc": "Pinça longa com ponta serrilhada, ideal para manusear corais, posicionar rochas, arrumar musgos ou alimentar a fauna do seu aquário. Possui cabo texturizado e antiderrapante, garantindo precisão e firmeza mesmo com as mãos molhadas.",
+      "price": 36,
+      "icon": "breeding",
+      "image": "",
+      "media": [],
+      "soldOut": false,
+      "colors": [
+        {
+          "name": "Laranja",
+          "hex": "#ff6600",
+          "soldOut": false
+        }
+      ],
+      "category": "Ferramenta",
+      "specs": {
+        "material": "PETG",
+        "uvResistant": true,
+        "waterType": "Doce e salgada",
+        "nonToxic": true,
+        "notes": ""
+      },
+      "dimensions": {
+        "width": "7",
+        "height": "30",
+        "depth": "1",
+        "compatibility": ""
+      }
+    },
+    {
+      "id": "p_1789930620887",
+      "name": "Locline bico de pato 1/2\" (3 partes)",
+      "desc": "Bico de pato articulado (Locline) com rosca de 1/2\", ideal para direcionar o fluxo de água, otimizar a circulação e melhorar a circulação do seu aquário. Produzido em material resistente e atóxico, possui ajuste fácil e preciso, garantindo total controle sobre a vazão.",
+      "price": 42,
+      "icon": "breeding",
+      "image": "",
+      "media": [],
+      "soldOut": false,
+      "colors": [
+        {
+          "name": "Laranja",
+          "hex": "#ff6600",
+          "soldOut": false
+        }
+      ],
+      "category": "Locline",
+      "specs": {
+        "material": "PETG",
+        "uvResistant": true,
+        "waterType": "Doce e salgada",
+        "nonToxic": true,
+        "notes": ""
+      },
+      "dimensions": {
+        "width": "2",
+        "height": "10",
+        "depth": "2",
+        "compatibility": ""
+      }
+    }
+  ]
+}

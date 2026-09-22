@@ -211,6 +211,52 @@ function apiUrl(){
   return `https://api.github.com/repos/${cfg.user}/${cfg.repo}/contents/data.json`;
 }
 
+function fileContentsUrl(path){
+  const cfg = getConfig();
+  return `https://api.github.com/repos/${cfg.user}/${cfg.repo}/contents/${path}`;
+}
+
+function readFileAsBase64(file){
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      // remove o prefixo "data:image/...;base64," e deixa só o base64 puro
+      const result = reader.result;
+      const base64 = result.split(',')[1];
+      resolve(base64);
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+async function uploadImageFile(file){
+  const cfg = getConfig();
+  const base64 = await readFileAsBase64(file);
+  const safeName = file.name.replace(/[^a-zA-Z0-9.\-_]/g, '-').toLowerCase();
+  const path = `images/${Date.now()}-${Math.random().toString(36).slice(2,7)}-${safeName}`;
+
+  const res = await fetch(fileContentsUrl(path), {
+    method: 'PUT',
+    headers: {
+      'Authorization': 'token ' + cfg.token,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: 'Upload de imagem via painel admin',
+      content: base64
+    })
+  });
+
+  if(!res.ok){
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.message || ('Erro ' + res.status));
+  }
+
+  const data = await res.json();
+  return data.content.download_url || ('./' + path);
+}
+
 function showStatus(elId, type, msg){
   const el = document.getElementById(elId);
   el.className = 'status show ' + type;
@@ -354,7 +400,7 @@ function renderProducts(){
         `).join('')}
       </div>
       <input type="file" accept="image/*" multiple onchange="handleImages(${i}, this)">
-      <div class="hint">Pode selecionar várias fotos de uma vez. A primeira da lista aparece como capa no catálogo.</div>
+      <div class="hint">Pode selecionar várias fotos de uma vez. A primeira da lista aparece como capa no catálogo. As fotos são enviadas direto pro repositório (não deixam o site lento).</div>
       <label style="margin-top:10px;">Link de vídeo (opcional)</label>
       <input type="text" placeholder="Link direto de um .mp4 (ex: hospedado no Google Drive, YouTube não funciona aqui)" onkeydown="if(event.key==='Enter'){addVideoLink(${i}, this.value); this.value='';}">
       <div class="hint">Cole o link e aperte Enter. Vídeos ficam pesados se enviados como arquivo — por isso aqui é só link.</div>
@@ -443,20 +489,30 @@ function addVideoLink(i, url){
 function escapeAttr(s){ return (s||'').replace(/"/g,'&quot;'); }
 function updateField(i, field, value){ products[i][field] = value; }
 
-function handleImages(i, input){
+async function handleImages(i, input){
   const files = Array.from(input.files || []);
   if(!files.length) return;
   if(!products[i].media) products[i].media = [];
-  let remaining = files.length;
-  files.forEach(file => {
-    const reader = new FileReader();
-    reader.onload = e => {
-      products[i].media.push({type:'image', src: e.target.result});
-      remaining--;
-      if(remaining === 0) renderProducts();
-    };
-    reader.readAsDataURL(file);
-  });
+
+  const container = document.getElementById(`media_${i}`);
+  const statusEl = document.createElement('div');
+  statusEl.style.cssText = 'font-size:12px;color:var(--accent);margin-top:6px;';
+  statusEl.textContent = `Enviando ${files.length} foto(s)...`;
+  container.after(statusEl);
+  input.disabled = true;
+
+  for(const file of files){
+    try{
+      const url = await uploadImageFile(file);
+      products[i].media.push({type:'image', src: url});
+    } catch(e){
+      alert('Erro ao enviar uma das fotos: ' + e.message);
+      console.error(e);
+    }
+  }
+
+  statusEl.remove();
+  renderProducts();
 }
 
 function addProduct(){
