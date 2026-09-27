@@ -155,7 +155,7 @@
       "id": "p_1790537400338",
       "name": "Kit 10 Pinos Para Corais Frag Plug",
       "desc": "Proporcione mais organização, segurança e saúde para as mudas de corais do seu aquário marinho!   O Kit com 10 Pinos para Corais (Frag Plugs) é a solução perfeita para aquaristas que buscam praticidade e fixação eficiente no reef. Desenvolvidos com superfície de textura ideal para facilitar a aderência e a fixação do tecido do coral, além de uma haste firme para encaixe seguro em rochas e frag racks. ",
-      "price": 0,
+      "price": 27,
       "icon": "breeding",
       "image": "",
       "media": [
@@ -183,7 +183,7 @@
       "category": "Suportes",
       "specs": {
         "material": "PETG",
-        "uvResistant": false,
+        "uvResistant": true,
         "waterType": "",
         "nonToxic": true,
         "notes": "10x Pinos (Plugs) para Fixação de Corais"
