@@ -47,6 +47,11 @@
           "name": "Laranja",
           "hex": "#ff6600",
           "soldOut": false
+        },
+        {
+          "name": "Preta",
+          "hex": "#000000",
+          "soldOut": false
         }
       ],
       "category": "Ferramenta",
@@ -82,6 +87,11 @@
         {
           "name": "Laranja",
           "hex": "#ff6600",
+          "soldOut": false
+        },
+        {
+          "name": "Preta",
+          "hex": "#000000",
           "soldOut": false
         }
       ],
@@ -119,6 +129,11 @@
           "name": "Laranja",
           "hex": "#ff6600",
           "soldOut": false
+        },
+        {
+          "name": "Preta",
+          "hex": "#000000",
+          "soldOut": false
         }
       ],
       "category": "Suportes",
@@ -134,6 +149,50 @@
         "height": "4",
         "depth": "4",
         "compatibility": "Compatível com vidros de até 8mm."
+      }
+    },
+    {
+      "id": "p_1790537400338",
+      "name": "Kit 10 Pinos Para Corais Frag Plug",
+      "desc": "Proporcione mais organização, segurança e saúde para as mudas de corais do seu aquário marinho!   O Kit com 10 Pinos para Corais (Frag Plugs) é a solução perfeita para aquaristas que buscam praticidade e fixação eficiente no reef. Desenvolvidos com superfície de textura ideal para facilitar a aderência e a fixação do tecido do coral, além de uma haste firme para encaixe seguro em rochas e frag racks. ",
+      "price": 0,
+      "icon": "breeding",
+      "image": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790537490209-jr7ix-whatsapp-image-2026-09-27-at-16.15.50--1-.jpeg"
+        },
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790537501620-1ypw7-whatsapp-image-2026-09-27-at-16.15.50--2-.jpeg"
+        },
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1790537507447-ws40j-whatsapp-image-2026-09-27-at-16.15.50.jpeg"
+        }
+      ],
+      "soldOut": false,
+      "colors": [
+        {
+          "name": "Preta",
+          "hex": "#000000",
+          "soldOut": false
+        }
+      ],
+      "category": "Suportes",
+      "specs": {
+        "material": "PETG",
+        "uvResistant": false,
+        "waterType": "",
+        "nonToxic": true,
+        "notes": "10x Pinos (Plugs) para Fixação de Corais"
+      },
+      "dimensions": {
+        "width": "2,5",
+        "height": "1",
+        "depth": "2,5",
+        "compatibility": "Compatível com todo tipo de aquário e rocha."
       }
     }
   ]
