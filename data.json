@@ -52,6 +52,11 @@
           "name": "Preta",
           "hex": "#000000",
           "soldOut": false
+        },
+        {
+          "name": "Branca",
+          "hex": "#ffffff",
+          "soldOut": false
         }
       ],
       "category": "Ferramenta",
@@ -93,6 +98,11 @@
           "name": "Preta",
           "hex": "#000000",
           "soldOut": false
+        },
+        {
+          "name": "Branca",
+          "hex": "#ffffff",
+          "soldOut": false
         }
       ],
       "category": "Locline",
@@ -133,6 +143,11 @@
         {
           "name": "Preta",
           "hex": "#000000",
+          "soldOut": false
+        },
+        {
+          "name": "Branca",
+          "hex": "#ffffff",
           "soldOut": false
         }
       ],
@@ -177,6 +192,11 @@
         {
           "name": "Preta",
           "hex": "#000000",
+          "soldOut": false
+        },
+        {
+          "name": "Branca",
+          "hex": "#ffffff",
           "soldOut": false
         }
       ],
