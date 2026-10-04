@@ -194,6 +194,52 @@
         "depth": "2,5",
         "compatibility": "Compatível com todo tipo de aquário e rocha."
       }
+    },
+    {
+      "id": "p_1791073572569",
+      "name": "Flutuador de descanso para aquário de peixe betta",
+      "desc": "Rede de descanso em formato de cúpula vazada para o seu betta relaxar perto da superfície. Flutua com estabilidade, tem abertura lateral para entrada e saída fácil e estrutura vazada que deixa a água circular. Impressão 3D com acabamento liso e seguro para peixes.",
+      "price": 25,
+      "icon": "breeding",
+      "image": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://raw.githubusercontent.com/martinmelo082/submersa.github.io/main/images/1791074427323-5sgct-flutuador-betta-padrao-submersa.jpg"
+        }
+      ],
+      "soldOut": false,
+      "colors": [
+        {
+          "name": "Branca",
+          "hex": "#ffffff",
+          "soldOut": false
+        },
+        {
+          "name": "Preta",
+          "hex": "#000000",
+          "soldOut": false
+        },
+        {
+          "name": "Laranja",
+          "hex": "#ff7300",
+          "soldOut": true
+        }
+      ],
+      "category": "Decoração",
+      "specs": {
+        "material": "PETG",
+        "uvResistant": false,
+        "waterType": "Doce",
+        "nonToxic": true,
+        "notes": "Impresso em 3D em PETG, material estável em água e sem liberação de substâncias nocivas. Estrutura vazada em padrão geométrico, com abertura lateral para o betta entrar e sair. Base em anel para manter a peça flutuando na superfície. Recomenda-se lavar em água corrente antes do primeiro uso, sem sabão ou detergente. Retire eventuais rebarbas de impressão, se houver."
+      },
+      "dimensions": {
+        "width": "8",
+        "height": "8",
+        "depth": "4",
+        "compatibility": "Ideal para aquários de 5 a 30 L com peixe betta. Pode ser usado em aquários maiores. Recomenda-se nível de água com pelo menos 10 cm de profundidade."
+      }
     }
   ]
 }
